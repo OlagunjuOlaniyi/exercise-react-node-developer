@@ -1,0 +1,29 @@
+@import './colors.scss';
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-bottom: 30px;
+   
+    div:nth-child(1){
+        img{
+            width: 80px;
+        }
+    }
+
+    div:nth-child(2) {
+        span{
+        background-color: $gray-color;
+        padding: 15px;
+        border-radius: 100px;
+        color: $light-gray;
+        margin-right: 5px;
+        &:hover{cursor: pointer;}
+        }
+        img {
+            width: 30px;
+        }
+    }
+}
